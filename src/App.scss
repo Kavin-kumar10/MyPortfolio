@@ -1,0 +1,152 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color:white;
+  --secondary-color:black;
+  --tertiary-color:purple;
+}
+
+
+@mixin flex($justify,$direction){
+  display: flex;
+  align-items:center;
+  flex-direction:$direction;
+  justify-content: $justify;
+  text-align: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  color: var(--secondary-color);
+  .Landpage{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    &__img{
+      display: flex;
+      align-items: center;
+      img{
+        max-width: 600px;
+      }
+    }
+    &__content{
+      color: var(--secondary-color);
+      h1{
+        font-size: 50px;
+        span{
+          background: linear-gradient(var(--tertiary-color),rgb(224, 224, 125));
+          font-size: 75px;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+        }
+        background-image: linear-gradient(black,grey);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+      font-family: 'Poiret One', cursive;
+      h3,p{
+        padding: 5px 20px;
+      }
+      display: flex;
+      flex-direction:column;
+      justify-content: space-around;
+    }
+  }
+  .Nav{
+    height: auto;
+    position:fixed;
+    top: 30%;
+    left: 1%;
+    width: 60px;
+    margin: 12px;
+    background-color:transparent;
+    @include flex(center,column);
+    border-radius: 120px;
+    z-index: 1;
+    transition: 1s;
+    ul{
+    
+        padding: 12px;
+        li{
+            @include flex(center, column);
+            list-style: none;
+            width: 40px;
+            height: 40px;
+            margin:12px 25px;
+            font-size: 20px;
+            border-radius: 100%;
+            cursor: pointer;
+            color: var(--secondary-color);
+            &:hover{
+                border: 2px solid var(--secondary-color);
+            }
+        }
+
+    }
+}
+}
+
+@media screen and (max-width:1560px){
+  .App{
+    .Landpage{
+      &__img{
+        img{
+          width: 400px;
+        }
+      }
+      &__content{
+        h1{
+          font-size: 30px;
+        }
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px){
+  .App{
+    .Landpage{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__img{
+        img{
+          max-width: 300px;
+        }
+      }
+      &__content{
+        h1{
+          font-size: 30px;
+        }
+        margin-bottom: 100px;
+        text-align: center;
+        flex-direction:column-reverse;
+      }
+    }
+    .Nav{
+      display: none;
+      // @include flex(center, row);
+      // top: 90%;
+      // left: 39%;
+      // ul{
+      // background-color: white;
+      // border-radius: 12px;
+      //   display: flex;
+      //   li{
+      //     @include flex(center,row);
+      //     margin: 5px 12px;
+      //   }
+      // }
+    }
+  }
+}

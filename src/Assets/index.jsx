@@ -1,0 +1,9 @@
+export const LandpageImg = require("./Vector.png"); 
+export const about_img1 = require("./Analysis.svg");
+export const about_img2 = require("./Team.svg");
+export const about_img3 = require("./Code.svg");
+export const skill_img = require("./myImg3.jpg");
+export const fakeUtube_1 = require("./fakeUtube.png");
+export const fakeUtube_2 = require("./fakeUtube(1).png");
+export const NotesImg_1 = require("./kavin-notes.png");
+export const NotesImg_2 = require("./kavin-notes(1).png");
