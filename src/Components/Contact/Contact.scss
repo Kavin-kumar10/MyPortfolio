@@ -9,8 +9,6 @@
     justify-content: space-evenly;
     .form{
         width: 100%;
-        // background-color: var(--secondary-color);
-        border: 1px solid var(--secondary-color);
         height: 90%;
         border-radius: 25px;
         padding: 12px;
@@ -36,13 +34,14 @@
             color: var(--secondary-color);
             .input{
                 display: flex;
+                color: var(--tertiary-color);
                 input{
                     height: 40px;
                     padding: 10px;
-                    font-size: 20px;
+                    font-size: 17px;
                     border-radius: 5px;
                     width: 340px;
-                    border: 1px solid var(--secondary-color);
+                    border: 1px solid var(--tertiary-color);
                 }
                 #textarea{
                     width: 340px;
@@ -50,7 +49,9 @@
                     font-size: 20px;
                     border-radius: 5px;
                     padding: 10px;
+                    border: 1px solid var(--tertiary-color);
                 }
+
             }
             .input>*{
                 margin: 12px;
@@ -59,18 +60,37 @@
                 display: flex;
                 #submit{
                     width: 240px;
-                    height: 40px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     border: 1px solid grey;
-                    padding-bottom: 35px;
+                    background-color: var(--tertiary-color);
+                    color: var(--primary-color);
+                    font-size: 25px;
                     #btn{
                         margin: 0px 20px;
                     }
+                    &:hover{
+                        border: 1px solid var(--tertiary-color);
+                        background-color: var(--primary-color);
+                        color: var(--tertiary-color);
+                        transition-duration: 1s;
+                    }
                 }
                 #reset{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     width: 240px;
-                    height: 40px;
-                    border: 1px solid grey;
-                    padding-bottom: 35px;
+                    height: 50px;
+                    border: 1px solid var(--tertiary-color);
+                    background-color: transparent;
+                    color: var(--secondary-color);
+                    font-size: 25px;
+                    #btn{
+                        margin: 0px 25px;
+                    }
                 }
             }
             .button>*{
@@ -101,6 +121,9 @@
                 margin: 20px;
                 font-size: 50px;
                 color: var(--secondary-color);
+                span{
+                    color: var(--tertiary-color);
+                }
             }
             p{
                 margin: 80px 100px;
@@ -141,10 +164,12 @@
                 #submit{
                     width: 220px;
                     height: 40px;
+                    font-size: 17px;
                 }
                 #reset{
                     width: 220px;
                     height: 40px;
+                    font-size: 17px;
                 }
             }
             .button>*{

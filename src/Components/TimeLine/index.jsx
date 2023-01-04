@@ -90,7 +90,7 @@ const TimeLine = () =>{
             </Typography>
             </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
             <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
             <TimelineDot color="secondary">
@@ -102,7 +102,7 @@ const TimeLine = () =>{
                 Repeat
             </Typography>
             </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
         </Timeline>
         </div>
 

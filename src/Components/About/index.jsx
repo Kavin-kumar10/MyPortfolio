@@ -16,28 +16,28 @@ const About = () =>{
                 enhance my knowledge about new and emerging trends in the IT Sector.</p>
             </div>
             <div className="col_2">
-                <div className="box b1" data-aos = "fade-left" data-aos-delay = "500">
+                <div className="box b1" data-aos = "fade-left" data-aos-delay = "300">
                     <Code id='about_img'/>
                     <p>Ui/Ux Designing</p>
                 </div>
-                <div className="box b2" data-aos = "fade-left" data-aos-delay = "700">
+                <div className="box b2" data-aos = "fade-left" data-aos-delay = "500">
                     <Analysis id='about_img'/>
                      <p>FreeLancing</p>
                 </div>
-                <div className="box b3" data-aos = "fade-left" data-aos-delay = "900">
+                <div className="box b3" data-aos = "fade-left" data-aos-delay = "700">
                     <Team id='about_img'/>      
                     <p>Mern Stack Developer</p>
                 </div>
-                <div className="box b4" data-aos = "fade-left" data-aos-delay = "1200">
-                    <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "1500">
+                <div className="box b4" data-aos = "fade-left" data-aos-delay = "900">
+                    <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "1000">
                         <p>GitHub</p>
                         <AiFillGithub  id="icon"/>
                     </div>
-                    <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "1600">
+                    <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "1200">
                         <p>LinkedIn</p>
                         <AiFillLinkedin  id="icon"/>
                     </div>
-                    <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "1700">
+                    <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "1400">
                         <p>Gmail</p>
                         <AiOutlineMail id="icon"/>
                     </div>
