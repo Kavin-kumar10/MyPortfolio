@@ -2,7 +2,8 @@ import React from 'react';
 import {ReactComponent as Analysis} from '../../Assets/Analysis.svg';
 import {ReactComponent as Team} from '../../Assets/Team.svg';
 import {ReactComponent as Code} from '../../Assets/Code.svg';
-import {AiFillGithub,AiFillLinkedin,AiOutlineMail} from 'react-icons/ai'
+import {AiFillGithub,AiFillLinkedin} from 'react-icons/ai'
+import {SiLeetcode} from 'react-icons/si';
 import './About.scss'
 
 const About = () =>{
@@ -30,16 +31,17 @@ const About = () =>{
                 </div>
                 <div className="box b4" data-aos = "fade-left" data-aos-delay = "900">
                     <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "1000">
-                        <p>GitHub</p>
+                        <p><a href="https://github.com/Kavin-kumar10">GitHub</a></p>
                         <AiFillGithub  id="icon"/>
-                    </div>
+                    </div>                    
+
                     <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "1200">
-                        <p>LinkedIn</p>
+                        <p><a href="https://www.linkedin.com/in/kavin-kumar-m-aaba5520a/">LinkedIn</a></p>
                         <AiFillLinkedin  id="icon"/>
                     </div>
                     <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "1400">
-                        <p>Gmail</p>
-                        <AiOutlineMail id="icon"/>
+                        <p><a href="https://leetcode.com/user8949p/">Leetcode</a></p>
+                        <SiLeetcode id="icon"/>
                     </div>
                 </div>
             </div>
