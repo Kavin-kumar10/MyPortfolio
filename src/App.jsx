@@ -7,6 +7,7 @@ import Skills from './Components/Skills';
 import Project from './Components/Project';
 import TimeLine from './Components/TimeLine';
 import Preloader from './Components/Preloader';
+import Contact from './Components/Contact';
 
 function App() {
   const [isLoading,setLoading] = useState(true);
@@ -14,7 +15,7 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false);
-    },1000);
+    },2000);
   },[])
   return (
     <div>
@@ -28,6 +29,7 @@ function App() {
           <Skills/>
           <Project/>
           <TimeLine/>
+          <Contact/>
         </div>)
       }
     </div>

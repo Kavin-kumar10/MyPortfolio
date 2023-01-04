@@ -62,10 +62,19 @@ const Nav = () =>{
                     </Link>
 
 
+                    <Link
+                    // activeClass="NavActive"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={300}>
+                        <Tippy content={<span className='tip'>Projects</span>} placement='right'>
+                            <li data-aos="fade-right" data-aos-delay="800" data-aos-duration="100"><IoMailOutline/></li>
+                        </Tippy>
+                    </Link>
 
 
-
-                    <li data-aos="fade-right" data-aos-delay="800" data-aos-duration="100"><IoMailOutline/></li>
                     <li onClick={()=>{setNavon(!navon)}} style={{border: "2px solid var(--primary-color)"}}
                     data-aos="fade-right" data-aos-delay="1000" data-aos-duration="100"
                     ><RiArrowUpSLine/></li>

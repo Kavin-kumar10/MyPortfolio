@@ -28,7 +28,6 @@
         margin:50px 100px;
     }
     .col_2{
-        // border: 1px solid grey;
         color: var(--secondary-color);
         width: 50vw;
         display: flex;
@@ -36,6 +35,9 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+
+        //common box
+
         .box{
             height:350px;
             width: 350px;
@@ -52,23 +54,38 @@
         .box > *{
             margin: auto;
         }
-        // .b4{
-        //     background-color:var(--secondary-color);
-        //     display: flex;
-        //     flex-direction: column;
-        //     flex-wrap: wrap;
-        //     padding: 12px;
-        //     p{
-        //         color: var(--primary-color);
-        //     }
-        // }
-        // .b4>*{
-        //     border: 1px solid var(--primary-color);
-        //     width: 100%;
-        //     height:100px;
-        //     background-color: var(--primary-color);
-        //     border-radius:5px;
-        // }
+
+        //4th box
+
+        .b4{
+            box-shadow: none;
+            background-color:var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .tag{
+                box-shadow: 0px 0px 3px 1px var(--secondary-color);
+                #icon{
+                    color: var(--secondary-color);
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .tag>*{
+                margin: 12px;
+            }
+            p{
+                color: var(--secondary-color);
+                font-size: 30px;
+            }
+        }
+        .b4>*{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-height:80px;
+        }
     }
     .col_2 > *{
         margin: 20px;
@@ -123,6 +140,20 @@
                     font-size: 12px;
                 }
             }
+            .b4{
+                .tag{
+                    #icon{
+                        scale: 0.5;
+                    }
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            .b4>*{
+                height: 50px;
+            }
+     
         }
         .col_1>*{
             margin: 40px 0px;
