@@ -69,7 +69,7 @@ const Nav = () =>{
                     smooth={true}
                     offset={0}
                     duration={300}>
-                        <Tippy content={<span className='tip'>Projects</span>} placement='right'>
+                        <Tippy content={<span className='tip'>Let's Collabrate</span>} placement='right'>
                             <li data-aos="fade-right" data-aos-delay="800" data-aos-duration="100"><IoMailOutline/></li>
                         </Tippy>
                     </Link>
