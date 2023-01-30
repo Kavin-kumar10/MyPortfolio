@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {AiOutlineHome,AiOutlineUser} from 'react-icons/ai'
 import {IoCubeOutline,IoMailOutline} from 'react-icons/io5'
+import {RiOpenArmLine} from 'react-icons/ri'
 import {RiArrowUpSLine} from 'react-icons/ri'
 import {GiCloverSpiked} from 'react-icons/gi'
 import { Link } from 'react-scroll'
@@ -46,6 +47,17 @@ const Nav = () =>{
                             </Tippy>
                     </Link>    
 
+                    <Link
+                        // activeClass="NavActive"
+                        to="Skills"
+                        spy={true}
+                        smooth={true}
+                        offset={100}
+                        duration={300}>
+                            <Tippy content={<span className='tip'>Skillset</span>} placement='right' id = "tip">
+                                <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="100"><RiOpenArmLine/></li>
+                            </Tippy>
+                    </Link>    
 
                     <Link
                     // activeClass="NavActive"

@@ -7,5 +7,7 @@ export const fakeUtube_1 = require("./fakeUtube.png");
 export const fakeUtube_2 = require("./fakeUtube(1).png");
 export const NotesImg_1 = require("./kavin-notes.png");
 export const NotesImg_2 = require("./kavin-notes(1).png");
+export const Todo_React = require("./Todo_react.png");
+export const Epic_25 = require("./epic_25.png");
 
 //All svg's are directly imported

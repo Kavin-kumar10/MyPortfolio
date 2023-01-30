@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Skills = () =>{
     return(
-        <div className="Skills">
+        <div className="Skills" id='Skills'>
             <img src={skill_img} alt="mine" data-aos = "fade-right" data-aos-delay ="100" data-aos-duration ="1000"/>
             <div className="Skillset">
                 <ul>
