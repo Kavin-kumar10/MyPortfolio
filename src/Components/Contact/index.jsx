@@ -1,6 +1,8 @@
 import React from 'react';
 import {BiSend} from 'react-icons/bi'
+import {AiFillLinkedin,AiFillGithub,AiOutlineWhatsApp} from 'react-icons/ai'
 import {RxReset} from 'react-icons/rx'
+import {SiLeetcode} from 'react-icons/si'
 import {ReactComponent as Contact_img} from '../../Assets/Contact.svg';
 import "./Contact.scss"
 
@@ -10,7 +12,21 @@ const Contact = () =>{
             <div className="Details">
                 <div className="Info">
                     <h1>Feel Free <span>2</span> Contact</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate error laborum. Qui incidunt earum quae rerum laborum eius mollitia eum magni omnis ratione praesentium repellendus exercitationem quia ea ab tempore ex, similique ipsam consequuntur quam molestias? Officiis similique quam aperiam aut harum voluptas architecto dolores eius, eveniet enim beatae perspiciatis assumenda nulla culpa ipsa eaque iure quidem reprehenderit accusamus autem qui? Magnam exercitationem repellat dolorem architecto molestias deleniti dolor autem laboriosam nulla, nisi, culpa accusamus distinctio? Delectus commodi quam atque distinctio ipsum recusandae architecto sunt maxime vitae eum consequuntur inventore natus earum rerum error voluptate, porro reiciendis quisquam? Cum?</p>
+                    <p>Together Let's make better tomorrow...!</p>
+                    <div className="media">
+                        <a href="https://www.linkedin.com/in/kavin-kumar-m-aaba5520a/" target="_blank">
+                            <AiFillLinkedin/>
+                        </a>
+                        <a href="https://github.com/Kavin-kumar10" target="_blank">
+                            <AiFillGithub/>
+                        </a>
+                        <a href="https://leetcode.com/user8949p/" target="_blank">
+                            <SiLeetcode/>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=918344442124">
+                            <AiOutlineWhatsApp/>
+                        </a>
+                    </div>
                 </div>
                 <div style={{position:"relative"}} className = "Map">
                 <iframe id='iframe' width="700" height="300" src="https://maps.google.com/maps?width=700&amp;height=700&amp;hl=en&amp;q=theni+(Locate)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
@@ -23,7 +39,7 @@ const Contact = () =>{
                 <div className="Icon">
                     <Contact_img id="Contact_img"/>
                 </div>
-                <form action="#">
+                <form action="mailto:kavinkumar.prof@gmail.com">
                     <div className="input">
                         <h2>Username</h2>
                         <input type="text" placeholder='Kavin Kumar M'/>
@@ -37,7 +53,7 @@ const Contact = () =>{
                         <textarea id="textarea" placeholder='Description' cols="30" rows="10"/>
                     </div>  
                     <div className="button">
-                        <button id='submit' type='submit'>Send <BiSend id='btn' size={25}/></button>
+                        <button id='submit' type='submit' value="send" >Send <BiSend id='btn' size={25}/></button>
                         <button id='reset' type = "reset">Reset <RxReset id='btn' size={25}/></button>
                     </div>
                 </form>

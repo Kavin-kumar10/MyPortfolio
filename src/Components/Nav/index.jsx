@@ -92,7 +92,7 @@ const Nav = () =>{
                     ><RiArrowUpSLine/></li>
                 </ul>:
                 <ul>  
-                    <Tippy content={<span className='tip'>Don't Touch Me</span>} placement='right' id = "tip">
+                    <Tippy content={<span className='tip'>Explore</span>} placement='right' id = "tip">
                     <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="200"><GiCloverSpiked onClick={()=>{setNavon(!navon)}}/></li>
                     </Tippy>
                 </ul>

@@ -123,8 +123,8 @@ const TimeLine = () =>{
             variant="body2"
             >
             <div id="font">                        
-                <p data-aos = "zoom-in">E <span>Commerce</span></p>
-                <code>Dec - 2022</code>
+                <p data-aos = "zoom-in">Healer <span>DashBoard</span></p>
+                <code>Feb - 2023</code>
                 {/* <a href="#">Live Demo</a> */}
             </div>    
             </TimelineOppositeContent>
@@ -137,7 +137,7 @@ const TimeLine = () =>{
             </TimelineSeparator>
             <TimelineContent sx={{ py: '80px', px: 2 }}>
             <Typography variant="h6" component="span">
-                WORKING
+                WORKING ON MERN
             </Typography>
             </TimelineContent>
         </TimelineItem>
