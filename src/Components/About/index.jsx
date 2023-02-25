@@ -30,19 +30,24 @@ const About = () =>{
                     <p>Mern Stack Developer</p>
                 </div>
                 <div className="box b4" data-aos = "fade-left" data-aos-delay = "900">
+                    <a href="https://github.com/Kavin-kumar10">
                     <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "1000">
-                        <p><a href="https://github.com/Kavin-kumar10">GitHub</a></p>
+                        <p>GitHub</p>
                         <AiFillGithub  id="icon"/>
-                    </div>                    
-
+                    </div>      
+                    </a>              
+                    <a href="https://www.linkedin.com/in/kavin-kumar-m-aaba5520a/">
                     <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "1200">
-                        <p><a href="https://www.linkedin.com/in/kavin-kumar-m-aaba5520a/">LinkedIn</a></p>
+                        <p>LinkedIn</p>
                         <AiFillLinkedin  id="icon"/>
                     </div>
+                    </a>
+                    <a href="https://leetcode.com/user8949p/">
                     <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "1400">
-                        <p><a href="https://leetcode.com/user8949p/">Leetcode</a></p>
+                        <p>Leetcode</p>
                         <SiLeetcode id="icon"/>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
