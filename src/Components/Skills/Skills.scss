@@ -32,13 +32,48 @@
 
 @media screen and (max-width:1560px){
     .Skills{
-        flex-direction: column;
-
+        .Skillset{
+            ul{
+                li{
+                    display: flex;
+                    #progress{
+                        width: 200px;
+                    }
+                }
+                li>*{
+                    margin: 10px;
+                }
+            }
+            ul>*{
+                margin: 6px;
+                padding: 6px;
+            }
+        }
+        img{
+            max-width: 300px;
+            margin: 20px 0;
+        }
+    }
+}
+@media screen and (max-width:1200px) {
+    .Skills{
+        .Skillset{
+            ul{
+                li>*{
+                    margin: 8px;
+                }
+            }
+        }   
+        img{
+            max-width: 250px;
+            margin: 10px 0;
+        }
     }
 }
 
 @media screen and (max-width:900px) {
     .Skills{
+        flex-direction: column;
         .Skillset{
             ul{
                 li{

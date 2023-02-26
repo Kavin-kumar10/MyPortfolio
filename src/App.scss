@@ -116,12 +116,33 @@ html::-webkit-scrollbar{
     .Landpage{
       &__img{
         img{
-          width: 400px;
+          width: 550px;
         }
       }
       &__content{
         h1{
           font-size: 30px;
+        }
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1200px){
+  .App{
+    .Landpage{
+      &__img{
+        img{
+          width: 450px;
+        }
+      }
+      &__content{
+        h1{
+          font-size: 25px;
+          span{
+            font-size: 40px;
+          }
         }
         margin-bottom: 100px;
       }
