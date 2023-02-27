@@ -17,33 +17,33 @@ const About = () =>{
                 enhance my knowledge about new and emerging trends in the IT Sector.</p>
             </div>
             <div className="col_2">
-                <div className="box b1" data-aos = "fade-left" data-aos-delay = "300">
+                <div className="box b1" data-aos = "fade-left" data-aos-delay = "0">
                     <Code id='about_img'/>
                     <p>Ui/Ux Designing</p>
                 </div>
-                <div className="box b2" data-aos = "fade-left" data-aos-delay = "500">
+                <div className="box b2" data-aos = "fade-left" data-aos-delay = "100">
                     <Analysis id='about_img'/>
                      <p>FreeLancing</p>
                 </div>
-                <div className="box b3" data-aos = "fade-left" data-aos-delay = "700">
+                <div className="box b3" data-aos = "fade-left" data-aos-delay = "200">
                     <Team id='about_img'/>      
                     <p>Mern Stack Developer</p>
                 </div>
-                <div className="box b4" data-aos = "fade-left" data-aos-delay = "900">
+                <div className="box b4" data-aos = "fade-left" data-aos-delay = "300">
                     <a href="https://github.com/Kavin-kumar10">
-                    <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "1000">
+                    <div className="tag t1" data-aos = "zoom-in" data-aos-delay = "400">
                         <p>GitHub</p>
                         <AiFillGithub  id="icon"/>
                     </div>      
                     </a>              
                     <a href="https://www.linkedin.com/in/kavin-kumar-m-aaba5520a/">
-                    <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "1200">
+                    <div className="tag t2" data-aos = "zoom-in" data-aos-delay = "500">
                         <p>LinkedIn</p>
                         <AiFillLinkedin  id="icon"/>
                     </div>
                     </a>
                     <a href="https://leetcode.com/user8949p/">
-                    <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "1400">
+                    <div className="tag t3" data-aos = "zoom-in" data-aos-delay = "600">
                         <p>Leetcode</p>
                         <SiLeetcode id="icon"/>
                     </div>

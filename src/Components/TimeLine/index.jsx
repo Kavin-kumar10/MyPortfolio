@@ -37,7 +37,7 @@ const TimeLine = () =>{
             <TimelineContent sx={{ py: '80px', px: 2 }}>
                 <div className="timeLineContain" style={{display:"flex",flexDirection:"column"}}>
                     {/* <img src={NotesImg_1} alt="img" data-aos = "fade-left" data-aos-delay = "500"/> */}
-                    <img src={NotesImg_2} alt="img" data-aos = "fade-left" data-aos-delay = "1000"/>
+                    <img src={NotesImg_2} alt="img" data-aos = "fade-left" data-aos-delay = "100"/>
 
                 </div>
             </TimelineContent>
@@ -62,7 +62,7 @@ const TimeLine = () =>{
             <TimelineContent sx={{ py: '80px', px: 2 }}>
                 <div className="timeLineContain" style={{display:"flex",flexDirection:"column",float:"right"}}>
                         {/* <img src={fakeUtube_1} alt="img"  data-aos = "fade-right" data-aos-delay = "800" data-aos-offset = "200"/> */}
-                        <img src={fakeUtube_2} alt="img"  data-aos = "fade-right" data-aos-delay = "1200"/>
+                        <img src={fakeUtube_2} alt="img"  data-aos = "fade-right" data-aos-delay = "200"/>
                 </div>
             </TimelineContent>
         </TimelineItem>
@@ -88,7 +88,7 @@ const TimeLine = () =>{
             <TimelineContent sx={{ py: '80px', px: 2 }}>
                 <div className="timeLineContain" style={{display:"flex",flexDirection:"column"}}>
                     {/* <img src={NotesImg_1} alt="img" data-aos = "fade-left" data-aos-delay = "500"/> */}
-                    <img src={Todo_React} alt="img" data-aos = "fade-left" data-aos-delay = "1000"/>
+                    <img src={Todo_React} alt="img" data-aos = "fade-left" data-aos-delay = "200"/>
 
                 </div>
             </TimelineContent>
@@ -113,7 +113,7 @@ const TimeLine = () =>{
             <TimelineContent sx={{ py: '80px', px: 2 }}>
                 <div className="timeLineContain" style={{display:"flex",flexDirection:"column",float:"right"}}>
                         {/* <img src={fakeUtube_1} alt="img"  data-aos = "fade-right" data-aos-delay = "800" data-aos-offset = "200"/> */}
-                        <img src={Epic_25} alt="img"  data-aos = "fade-right" data-aos-delay = "1200"/>
+                        <img src={Epic_25} alt="img"  data-aos = "fade-right" data-aos-delay = "200"/>
                 </div>
             </TimelineContent>
         </TimelineItem>

@@ -7,15 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Skills = () =>{
     return(
         <div className="Skills" id='Skills'>
-            <img src={skill_img} alt="mine" data-aos = "fade-right" data-aos-delay ="100" data-aos-duration ="1000"/>
+            <img src={skill_img} alt="mine" data-aos = "fade-right" data-aos-delay ="100" data-aos-duration ="500"/>
             <div className="Skillset">
                 <ul>
                     <li data-aos = "fade-left"><p>Html Css</p><ProgressBar id='progress' now={80} variant="dark"/></li>
-                    <li data-aos = "fade-left" data-aos-delay = "200"><p>React Js</p><ProgressBar id='progress' now={80} variant="dark"/></li>
-                    <li data-aos = "fade-left" data-aos-delay = "400"><p>Git & GitHub</p><ProgressBar id='progress' now={70} variant="dark"/></li>
-                    <li data-aos = "fade-left" data-aos-delay = "600"><p>Express -  Node Js</p><ProgressBar id='progress' now={80} variant="dark"/></li>
-                    <li data-aos = "fade-left" data-aos-delay = "800"><p>MongoDb Database</p><ProgressBar id='progress' now={80} variant="dark"/></li>
-                    <li data-aos = "fade-left" data-aos-delay = "1000"><p>Problem Solving</p><ProgressBar id='progress' now={50} variant="dark"/></li>
+                    <li data-aos = "fade-left" data-aos-delay = "100"><p>React Js</p><ProgressBar id='progress' now={80} variant="dark"/></li>
+                    <li data-aos = "fade-left" data-aos-delay = "200"><p>Git & GitHub</p><ProgressBar id='progress' now={70} variant="dark"/></li>
+                    <li data-aos = "fade-left" data-aos-delay = "300"><p>Express -  Node Js</p><ProgressBar id='progress' now={80} variant="dark"/></li>
+                    <li data-aos = "fade-left" data-aos-delay = "400"><p>MongoDb Database</p><ProgressBar id='progress' now={80} variant="dark"/></li>
+                    <li data-aos = "fade-left" data-aos-delay = "500"><p>Problem Solving</p><ProgressBar id='progress' now={50} variant="dark"/></li>
 
                 </ul>
             </div>
