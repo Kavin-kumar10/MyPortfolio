@@ -2,32 +2,22 @@
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
-  // font-family: 'Poiret One', cursive;
+  // font-family: 'Alegreya SC', serif;
   // font-family: 'Cutive Mono', monospace;
   // font-family: 'Great Vibes', cursive;
   // font-family: 'Henny Penny', cursive;
-  font-family: 'Montez', cursive;
+  // font-family: 'Lato', sans-serif;
+  // font-family: 'Montez', cursive;
+  // font-family: 'Poiret One', cursive;
   // font-family: 'Sacramento', cursive;
   // font-family: 'Viaoda Libre', cursive;
+  font-family: 'Tinos', serif;
+
 }
 
 html::-webkit-scrollbar{
   display: none;
 }
-// html::-webkit-scrollbar{
-//   width:0.5rem;
-
-// }
-// html::-webkit-scrollbar-thumb{
-//   background-color: var(--secondary-color);
-// }
-// html::-webkit-scrollbar-thumb:hover{
-//   background-color: grey;
-// }
-// html::-webkit-scrollbar-track{
-//   background-color: var(--primary-color);
-
-// }
 
 :root{
   --primary-color:rgb(255, 255, 255);

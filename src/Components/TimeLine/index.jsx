@@ -1,5 +1,5 @@
 import React from "react";
-import {fakeUtube_2 ,NotesImg_2,Todo_React,Epic_25} from "../../Assets";
+import {fakeUtube_2 ,NotesImg_2,Todo_React,Epic_25,Healer_Dashboard} from "../../Assets";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -120,19 +120,46 @@ const TimeLine = () =>{
         <TimelineItem>
             <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
+            align="right"
             variant="body2"
             >
             <div id="font">                        
                 <p data-aos = "zoom-in">Healer <span>DashBoard</span></p>
                 <code>Feb - 2023</code>
-                {/* <a href="#">Live Demo</a> */}
-            </div>    
+                <a href="https://kavin-kumar10.github.io/Healer-Dashboard/">Live Demo</a>
+            </div>   
+
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="secondary" variant="outlined">
-            {/* color = "primary" -> blue color */}
+            <TimelineDot color="secondary">
             </TimelineDot>
+            <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '80px', px: 2 }}>
+                <div className="timeLineContain" style={{display:"flex",flexDirection:"column"}}>
+                    {/* <img src={NotesImg_1} alt="img" data-aos = "fade-left" data-aos-delay = "500"/> */}
+                    <img src={Healer_Dashboard} alt="img" data-aos = "fade-left" data-aos-delay = "200"/>
+
+                </div>
+            </TimelineContent>
+        </TimelineItem>
+        {/* <TimelineItem>
+            <TimelineOppositeContent
+            sx={{ m: 'auto 0' }}
+            variant="body2"
+            >
+            <div id="font">                         */}
+                {/* <p data-aos = "zoom-in">Healer <span>DashBoard</span></p>
+                <code>Feb - 2023</code> */}
+                {/* <a href="#">Live Demo</a> */}
+            {/* </div>    
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot color="secondary" variant="outlined"> */}
+            {/* color = "primary" -> blue color */}
+            {/* </TimelineDot>
             <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '80px', px: 2 }}>
@@ -140,7 +167,7 @@ const TimeLine = () =>{
                 WORKING ON MERN
             </Typography>
             </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
         {/* <TimelineItem>
             <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
