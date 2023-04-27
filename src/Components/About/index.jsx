@@ -12,9 +12,11 @@ const About = () =>{
             <div className="col_1">
                 <h2>Wanna <span>Know</span> me</h2>
                 <h1>Hey there...! <span>It'z kavin</span>..._</h1>
-                <p>As UI UX designer & Front End Developer looking for a Challenging role in a reputable organization
-                to use my technical and management skills to the fullest for the organization's growth and to
-                enhance my knowledge about new and emerging trends in the IT Sector.</p>
+            
+                <p>Are you looking for perfect the UI developer then you are in the right place . 
+                    Get the professional result you are looking for. your work would be done on time as you require.
+                    just reach out and let me know your needs.
+                </p>
             </div>
             <div className="col_2">
                 <div className="box b1" data-aos = "fade-left" data-aos-delay = "0">
