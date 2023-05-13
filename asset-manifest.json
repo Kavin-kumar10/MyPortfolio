@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.675ea314.css",
-    "main.js": "/MyPortfolio/static/js/main.a1203497.js",
+    "main.css": "/MyPortfolio/static/css/main.962afe36.css",
+    "main.js": "/MyPortfolio/static/js/main.9d94e4b1.js",
     "static/media/myImg3.jpg": "/MyPortfolio/static/media/myImg3.837cb0a33acba56c9d18.jpg",
     "static/media/fakeUtube(1).png": "/MyPortfolio/static/media/fakeUtube(1).89a156752d3657298fab.png",
     "static/media/epic_25.png": "/MyPortfolio/static/media/epic_25.d0292b4556e721f20296.png",
@@ -10,27 +10,17 @@
     "static/media/kavin-notes.png": "/MyPortfolio/static/media/kavin-notes.3cafd7e122a8c3c0fd20.png",
     "static/media/Healer-Dashboard.png": "/MyPortfolio/static/media/Healer-Dashboard.aa616bb42a0ce6a22b20.png",
     "static/media/Todo_react.png": "/MyPortfolio/static/media/Todo_react.00c2ab2506688eefff24.png",
-    "static/media/atom.png": "/MyPortfolio/static/media/atom.e3b2225bee580615f0b9.png",
     "static/media/kavin-notes(1).png": "/MyPortfolio/static/media/kavin-notes(1).07cca1d5e51754d2ef7d.png",
-    "static/media/sass.png": "/MyPortfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
-    "static/media/node-js.png": "/MyPortfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
-    "static/media/c-.png": "/MyPortfolio/static/media/c-.24a8f93854ab092f17a7.png",
     "static/media/Analysis.svg": "/MyPortfolio/static/media/Analysis.9cd80491405993be6384a41527bbe2ec.svg",
     "static/media/Contact.svg": "/MyPortfolio/static/media/Contact.ca694ae5f95391415c875153e3090cb6.svg",
-    "static/media/java.png": "/MyPortfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/Team.svg": "/MyPortfolio/static/media/Team.529f8262fb2d182dd20be2f746a55a12.svg",
-    "static/media/git.png": "/MyPortfolio/static/media/git.848d8eb4034119060c76.png",
-    "static/media/html.png": "/MyPortfolio/static/media/html.6e930594286d8afe4c79.png",
-    "static/media/github.png": "/MyPortfolio/static/media/github.05f6c17b8cd04c28456f.png",
-    "static/media/css-3.png": "/MyPortfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
-    "static/media/js.png": "/MyPortfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/Code.svg": "/MyPortfolio/static/media/Code.3319ecfa9b03d1b9e7685bbe77dbbf43.svg",
     "index.html": "/MyPortfolio/index.html",
-    "main.675ea314.css.map": "/MyPortfolio/static/css/main.675ea314.css.map",
-    "main.a1203497.js.map": "/MyPortfolio/static/js/main.a1203497.js.map"
+    "main.962afe36.css.map": "/MyPortfolio/static/css/main.962afe36.css.map",
+    "main.9d94e4b1.js.map": "/MyPortfolio/static/js/main.9d94e4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.675ea314.css",
-    "static/js/main.a1203497.js"
+    "static/css/main.962afe36.css",
+    "static/js/main.9d94e4b1.js"
   ]
 }
