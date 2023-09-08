@@ -10,4 +10,6 @@ export const NotesImg_2 = require("./kavin-notes(1).png");
 export const Todo_React = require("./Todo_react.png");
 export const Epic_25 = require("./epic_25.png");
 export const Healer_Dashboard = require("./Healer-Dashboard.png");
+export const Ecommerce = require("./Ecommerce.png");
+export const HexaGo = require('./HexaGo.png')
 //All svg's are directly imported

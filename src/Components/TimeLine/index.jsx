@@ -1,5 +1,5 @@
 import React from "react";
-import {fakeUtube_2 ,NotesImg_2,Todo_React,Epic_25,Healer_Dashboard} from "../../Assets";
+import {fakeUtube_2 ,NotesImg_2,Todo_React,Epic_25,Healer_Dashboard,Ecommerce,HexaGo} from "../../Assets";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -140,6 +140,57 @@ const TimeLine = () =>{
                 <div className="timeLineContain" style={{display:"flex",flexDirection:"column"}}>
                     {/* <img src={NotesImg_1} alt="img" data-aos = "fade-left" data-aos-delay = "500"/> */}
                     <img src={Healer_Dashboard} alt="img" data-aos = "fade-left" data-aos-delay = "200"/>
+
+                </div>
+            </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+            <TimelineOppositeContent
+            sx={{ m: 'auto 0' }}
+            variant="body2"
+            >
+            <div id="font">                        
+                <p data-aos = "zoom-in">Ecommerce <span>site</span></p>
+                <code>Aug - 2023</code>
+                <a href="https://kavin-kumar10.github.io/Ecommerce/">Live Demo</a>
+            </div>    
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot color="secondary">
+            </TimelineDot>
+            <TimelineConnector/>
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '80px', px: 2 }}>
+                <div className="timeLineContain" style={{display:"flex",flexDirection:"column",float:"right"}}>
+                        {/* <img src={fakeUtube_1} alt="img"  data-aos = "fade-right" data-aos-delay = "800" data-aos-offset = "200"/> */}
+                        <img src={Ecommerce} alt="img"  data-aos = "fade-right" data-aos-delay = "200"/>
+                </div>
+            </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+            <TimelineOppositeContent
+            sx={{ m: 'auto 0' }}
+            align="right"
+            variant="body2"
+            >
+            <div id="font">                        
+                <p data-aos = "zoom-in">Auction <span>Platform</span></p>
+                <code>Aug - 2023</code>
+                <a href="#">Comming soon</a>
+            </div>   
+
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot color="secondary">
+            </TimelineDot>
+            <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '80px', px: 2 }}>
+                <div className="timeLineContain" style={{display:"flex",flexDirection:"column"}}>
+                    {/* <img src={NotesImg_1} alt="img" data-aos = "fade-left" data-aos-delay = "500"/> */}
+                    <img src={HexaGo} alt="img" data-aos = "fade-left" data-aos-delay = "200"/>
 
                 </div>
             </TimelineContent>
