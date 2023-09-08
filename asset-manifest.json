@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.962afe36.css",
-    "main.js": "/MyPortfolio/static/js/main.9d94e4b1.js",
+    "main.js": "/MyPortfolio/static/js/main.b368135a.js",
     "static/media/myImg3.jpg": "/MyPortfolio/static/media/myImg3.837cb0a33acba56c9d18.jpg",
     "static/media/fakeUtube(1).png": "/MyPortfolio/static/media/fakeUtube(1).89a156752d3657298fab.png",
     "static/media/epic_25.png": "/MyPortfolio/static/media/epic_25.d0292b4556e721f20296.png",
     "static/media/Vector.png": "/MyPortfolio/static/media/Vector.f374ce4778fc8eef0659.png",
     "static/media/fakeUtube.png": "/MyPortfolio/static/media/fakeUtube.86642dd5e64849bce764.png",
+    "static/media/Ecommerce.png": "/MyPortfolio/static/media/Ecommerce.f9344298932dff393342.png",
     "static/media/kavin-notes.png": "/MyPortfolio/static/media/kavin-notes.3cafd7e122a8c3c0fd20.png",
     "static/media/Healer-Dashboard.png": "/MyPortfolio/static/media/Healer-Dashboard.aa616bb42a0ce6a22b20.png",
+    "static/media/HexaGo.png": "/MyPortfolio/static/media/HexaGo.caaa493f01f484e4a9c4.png",
     "static/media/Todo_react.png": "/MyPortfolio/static/media/Todo_react.00c2ab2506688eefff24.png",
     "static/media/kavin-notes(1).png": "/MyPortfolio/static/media/kavin-notes(1).07cca1d5e51754d2ef7d.png",
     "static/media/Analysis.svg": "/MyPortfolio/static/media/Analysis.9cd80491405993be6384a41527bbe2ec.svg",
@@ -17,10 +19,10 @@
     "static/media/Code.svg": "/MyPortfolio/static/media/Code.3319ecfa9b03d1b9e7685bbe77dbbf43.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.962afe36.css.map": "/MyPortfolio/static/css/main.962afe36.css.map",
-    "main.9d94e4b1.js.map": "/MyPortfolio/static/js/main.9d94e4b1.js.map"
+    "main.b368135a.js.map": "/MyPortfolio/static/js/main.b368135a.js.map"
   },
   "entrypoints": [
     "static/css/main.962afe36.css",
-    "static/js/main.9d94e4b1.js"
+    "static/js/main.b368135a.js"
   ]
 }
