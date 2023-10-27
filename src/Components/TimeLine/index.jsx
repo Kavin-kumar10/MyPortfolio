@@ -177,7 +177,7 @@ const TimeLine = () =>{
             <div id="font">                        
                 <p data-aos = "zoom-in">Auction <span>Platform</span></p>
                 <code>Aug - 2023</code>
-                <a href="#">Comming soon</a>
+                <a href="https://hexago.vercel.app/Signup">Live Demo - (Wait for 1 minuite after SignUp)</a>
             </div>   
 
             </TimelineOppositeContent>
