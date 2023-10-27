@@ -1,4 +1,4 @@
-export const LandpageImg = require("./Vector.png"); 
+export const LandpageImg = require("./Vector4.png"); 
 export const about_img1 = require("./Analysis.svg");
 export const about_img2 = require("./Team.svg");
 export const about_img3 = require("./Code.svg");
