@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.79a8260b.css",
+    "main.js": "/MyPortfolio/static/js/main.157e72d9.js",
+    "static/media/Fakeutube.png": "/MyPortfolio/static/media/Fakeutube.7aaf6365db0488c452b4.png",
+    "static/media/EpicMovies.png": "/MyPortfolio/static/media/EpicMovies.820257310ba394b56d45.png",
+    "static/media/profile.jpg": "/MyPortfolio/static/media/profile.ce98494239cf61b21b4a.jpg",
+    "static/media/Ecommerce.png": "/MyPortfolio/static/media/Ecommerce.e70931f116f118c87d41.png",
+    "static/media/Matrimony.png": "/MyPortfolio/static/media/Matrimony.5e3cb55a908e68efaf22.png",
+    "static/media/mypic.png": "/MyPortfolio/static/media/mypic.2874c17894e72457a1a9.png",
+    "static/media/HospitalDashboard.png": "/MyPortfolio/static/media/HospitalDashboard.6f699cedfd9b2d661314.png",
+    "static/media/Auction.png": "/MyPortfolio/static/media/Auction.cc72177ad08620c57776.png",
+    "static/media/Todo.png": "/MyPortfolio/static/media/Todo.345244d4ae857e89bb9a.png",
+    "static/media/Notesite.png": "/MyPortfolio/static/media/Notesite.2af2845587652d88bd03.png",
+    "static/media/Skill-dark.png": "/MyPortfolio/static/media/Skill-dark.a2f0e3a7bf4a719fa41d.png",
+    "static/media/Skill-light.png": "/MyPortfolio/static/media/Skill-light.4fd2997219e0412fb204.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.79a8260b.css.map": "/MyPortfolio/static/css/main.79a8260b.css.map",
+    "main.157e72d9.js.map": "/MyPortfolio/static/js/main.157e72d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a8260b.css",
+    "static/js/main.157e72d9.js"
+  ]
+}
