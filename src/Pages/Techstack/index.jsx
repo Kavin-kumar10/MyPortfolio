@@ -66,7 +66,7 @@ const Techstack = () =>{
                 )
             }
          </div>
-         <h3 className="text-2xl font-bold md:text-3xl opacity-80 worked-header">Also work with</h3>
+         <h3 className="text-2xl font-bold md:text-3xl opacity-80 worked-header">Also worked with</h3>
          <div className="grid grid-cols-2 gap-3 py-10 sm:grid-cols-6 md:grid-cols-8">
             {
                 stacksBeginner.map((elem)=>
